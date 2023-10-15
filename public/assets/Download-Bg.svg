@@ -1,0 +1,26 @@
+<svg width="1440" height="549" viewBox="0 0 1440 549" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g clip-path="url(#clip0_244_754)">
+<rect width="1440" height="549" fill="#F1EAFB"/>
+<rect x="292.5" y="120" width="394" height="429" fill="url(#pattern0)"/>
+
+<mask id="mask0_244_754" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="785" y="398" width="33" height="32">
+<rect x="785.5" y="398" width="32" height="32" fill="url(#pattern1)"/>
+</mask>
+<g mask="url(#mask0_244_754)">
+<rect x="782.5" y="396" width="30" height="36" fill="white"/>
+</g>
+
+<path opacity="0.2" d="M1547 71.6938C1547 241.177 1378.53 303 1209.12 303C1039.71 303 933 137.523 933 -31.96C933 -201.443 1065.74 -186.675 1235.15 -186.675C1404.56 -186.675 1547 -97.7894 1547 71.6938Z" fill="#AC81E9"/>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_244_754" transform="matrix(0.00161168 0 0 0.00148019 -0.0025 0)"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1_244_754" transform="scale(0.00195312)"/>
+</pattern>
+<clipPath id="clip0_244_754">
+<rect width="1440" height="549" fill="white"/>
+</clipPath>
+</defs>
+</svg>
