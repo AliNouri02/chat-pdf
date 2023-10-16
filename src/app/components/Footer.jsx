@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="flex">
-      <div className="w-4/12 bg-app-purple px-16 pb-12 text-white">
+    <div className="flex flex-col md:flex-row">
+      <div className="md:w-5/12 bg-app-purple px-16 pb-12 text-white">
         <h2 className="font-bold text-[32px] pt-20 pb-10 text-black">
           <span className="text-white">BRIAN</span>PDF
         </h2>
@@ -43,9 +43,34 @@ const Footer = () => {
         </div>
         <p>Copyright BrainyPDF</p>
       </div>
-      <div className="w-8/12 bg-[#F1EAFB]">
+      <div className="md:w-7/12 bg-[#F1EAFB]">
         <div className="flex justify-center w-full h-full items-center">
-            fake
+          <div className="flex md:flex-row flex-col py-10 w-full md:py-0 gap-y-12 md:gap-x-3 lg:gap-x-20 justify-center">
+            <div className="space-y-4 text-center md:text-left">
+              <h5 className="font-bold text-[24px] md:text-base text-app-purple">Important links</h5>
+              <h5 className="underline text-[#666666]">Affiliate</h5>
+              <h5 className="underline text-[#666666]">Terms</h5>
+              <h5 className="underline text-[#666666]">Policies</h5>
+              <h5 className="underline text-[#666666]">Fileonion</h5>
+            </div>
+            <div className="w-full md:max-w-[296px] px-6 ">
+              <h5 className="font-bold text-[24px] md:text-base text-app-purple ">Join a Newsletter</h5>
+              <h5 className="text-[#666666] mt-4 ">Your Email</h5>
+              <input
+                type="email"
+                placeholder="Enter your email"
+                className="bg-[#FCFBFE] mb-5 mt-2 w-full md:w-[266px] lg:w-[296px] border-app-purple text-app-purple
+                 placeholder:text-app-purple border rounded-lg py-2 px-4 appearance-none focus:outline-none focus:border-app-purple focus:bg-[#F8F4FD]"
+              />
+
+              <button
+                type="submit"
+                className="bg-app-purple text-white px-8 py-4 font-bold text-[18px] w-full md:w-fit rounded-xl"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

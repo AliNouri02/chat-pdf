@@ -2,14 +2,14 @@ import React, { useState } from "react";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
-  
+
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
   return (
-    <nav className="bg-white text-black  py-8">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-white relative text-black  py-8 ">
+      <div className="container  mx-auto flex justify-between items-center px-4">
         <div className=" text-2xl font-bold">
           <svg
             width="178"
@@ -33,13 +33,16 @@ const Navbar = () => {
           </svg>
         </div>
         <div className="lg:hidden">
-          <button onClick={toggleMobileMenu} className=" text-2xl">
+          <button
+            onClick={toggleMobileMenu}
+            className="text-2xl bg-white px-2 py-1 rounded-md drop-shadow-2xl"
+          >
             ☰
           </button>
         </div>
 
         <ul className="hidden lg:flex items-center space-x-6">
-          <li className="flex items-center gap-x-1">
+          <a href="#" className="flex items-center gap-x-1">
             <span>PRODUCT</span>{" "}
             <svg
               className="mt-2"
@@ -56,12 +59,12 @@ const Navbar = () => {
                 fill="#24292E"
               />
             </svg>
-          </li>
-          <li className="">API</li>
-          <li className="">PRICING</li>
-          <li className="">CONTACT</li>
-          <li className="">FAQ</li>
-          <li className="">AFFILIATE</li>
+          </a>
+          <a href="#" className="">API</a>
+          <a href="#" className="">PRICING</a>
+          <a href="#" className="">CONTACT</a>
+          <a href="#" className="">FAQ</a>
+          <a href="#" className="">AFFILIATE</a>
         </ul>
 
         <button className="hidden lg:block bg-app-purple font-medium text-white px-8 py-3 rounded-xl">
@@ -69,38 +72,45 @@ const Navbar = () => {
         </button>
       </div>
 
-      {isMobileMenuOpen && (
-        <div className="lg:hidden transition-all duration-150">
-          <ul className="flex flex-col space-y-4 mx-12 my-2">
-            <li className="flex items-center gap-x-1">
-              <span>PRODUCT</span>{" "}
-              <svg
-                className="mt-2"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="38"
-                viewBox="0 0 24 38"
-                fill="none"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M19.1704 9.3295C19.6098 9.76884 19.6098 10.4812 19.1704 10.9205L12.7955 17.2954C12.3562 17.7348 11.6438 17.7348 11.2045 17.2954L4.8295 10.9205C4.39017 10.4812 4.39017 9.76884 4.8295 9.3295C5.26884 8.89017 5.98116 8.89017 6.42049 9.3295L12 14.909L17.5795 9.3295C18.0189 8.89017 18.7311 8.89017 19.1704 9.3295Z"
-                  fill="#24292E"
-                />
-              </svg>
-            </li>
-            <li className="">API</li>
-            <li className="">PRICING</li>
-            <li className="">CONTACT</li>
-            <li className="">FAQ</li>
-            <li className="">AFFILIATE</li>
-          </ul>
-          <button className="mx-12 lg:hidden bg-app-purple font-medium text-white px-8 py-2 rounded-xl">
-            My Account
-          </button>
-        </div>
-      )}
+      <div
+        className={`origin-top bg-white lg:hidden   absolute 
+           w-full overflow-hidden transition-all duration-500 ${
+             isMobileMenuOpen ? "h-64 " : "h-0 "
+           }`}
+      >
+        {isMobileMenuOpen && (
+          <>
+            <ul className="flex flex-col mx-12 my-2">
+              <a href="#" className="flex items-center gap-x-1">
+                <span>PRODUCT</span>{" "}
+                <svg
+                  className="mt-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 38"
+                  fill="none"
+                >
+                  <path
+                    fillRule="evenodd"
+                    clipRule="evenodd"
+                    d="M19.1704 9.3295C19.6098 9.76884 19.6098 10.4812 19.1704 10.9205L12.7955 17.2954C12.3562 17.7348 11.6438 17.7348 11.2045 17.2954L4.8295 10.9205C4.39017 10.4812 4.39017 9.76884 4.8295 9.3295C5.26884 8.89017 5.98116 8.89017 6.42049 9.3295L12 14.909L17.5795 9.3295C18.0189 8.89017 18.7311 8.89017 19.1704 9.3295Z"
+                    fill="#24292E"
+                  />
+                </svg>
+              </a>
+              <a href="#" className="">API</a>
+              <a href="#" className="my-1">PRICING</a>
+              <a href="#" className="">CONTACT</a>
+              <a href="#" className="my-1">FAQ</a>
+              <a href="#" className="">AFFILIATE</a>
+            </ul>
+            <button className="mx-12 my-1 lg:hidden bg-app-purple font-medium text-white px-8 py-2 rounded-xl">
+              My Account
+            </button>
+          </>
+        )}
+      </div>
     </nav>
   );
 };
