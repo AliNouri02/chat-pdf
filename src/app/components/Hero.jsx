@@ -25,11 +25,11 @@ const Hero = () => {
     <div className="">
       <div
         className="bg-right md:bg-center bg-cover bg-footer-background flex lg:h-3/4 flex-col md:flex-row justify-center items-center px-2 py-20 h-[928px]"
-        style={{ backgroundImage: 'url("/assets/image 8.png")' }}
+        style={{ backgroundImage: "url('/assets/image 8.png')" }}
       >
         <div className="w-full max-w-2xl px-4 text-left">
           <h4 className="text-[32px] md:text-[48px] text-[#555555]">
-            It's time to
+            It{"'"}s time to
           </h4>
           <h2 className="text-[48px] md:text-[64px] font-bold text-[#742DDB]">
             Chat with any PDF
