@@ -110,9 +110,9 @@ const FAQ = () => {
                 <path
                   d="M1 1L9 9L1 17"
                   stroke={`${selectedQuestion === "0" ? "#8242DF" : "#F1EAFB"}`}
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             ) : (
@@ -129,9 +129,9 @@ const FAQ = () => {
                     <path
                       d="M4 16L12 8L20 16"
                       stroke="#8242DF"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 ) : (
@@ -196,9 +196,9 @@ const FAQ = () => {
                 <path
                   d="M1 1L9 9L1 17"
                   stroke={`${selectedQuestion === "1" ? "#8242DF" : "#F1EAFB"}`}
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             ) : (
@@ -215,9 +215,9 @@ const FAQ = () => {
                     <path
                       d="M4 16L12 8L20 16"
                       stroke="#8242DF"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 ) : (
@@ -282,9 +282,9 @@ const FAQ = () => {
                 <path
                   d="M1 1L9 9L1 17"
                   stroke={`${selectedQuestion === "2" ? "#8242DF" : "#F1EAFB"}`}
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             ) : (
@@ -301,9 +301,9 @@ const FAQ = () => {
                     <path
                       d="M4 16L12 8L20 16"
                       stroke="#8242DF"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 ) : (
@@ -368,9 +368,9 @@ const FAQ = () => {
                 <path
                   d="M1 1L9 9L1 17"
                   stroke={`${selectedQuestion === "3" ? "#8242DF" : "#F1EAFB"}`}
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             ) : (
@@ -387,9 +387,9 @@ const FAQ = () => {
                     <path
                       d="M4 16L12 8L20 16"
                       stroke="#8242DF"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 ) : (
@@ -454,9 +454,9 @@ const FAQ = () => {
                 <path
                   d="M1 1L9 9L1 17"
                   stroke={`${selectedQuestion === "4" ? "#8242DF" : "#F1EAFB"}`}
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             ) : (
@@ -473,9 +473,9 @@ const FAQ = () => {
                     <path
                       d="M4 16L12 8L20 16"
                       stroke="#8242DF"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 ) : (

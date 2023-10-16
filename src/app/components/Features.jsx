@@ -19,8 +19,8 @@ const Features = () => {
             <path
               d="M1.5 30.1233C12.9713 14.6636 50.4312 -11.0355 108.5 9.84505C85.4914 2.68411 31.8793 0.689788 1.5 50"
               stroke="#8242DF"
-              stroke-width="2.13494"
-              stroke-linecap="round"
+              strokeWidth="2.13494"
+              strokeLinecap="round"
             />
           </svg>
         </div>

@@ -22,8 +22,8 @@ const ContactUs = () => {
             >
               <rect y="0.5" width="64" height="64" rx="8" fill="#8242DF" />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M42 26.5C42 25.4 41.1 24.5 40 24.5H24C22.9 24.5 22 25.4 22 26.5V38.5C22 39.6 22.9 40.5 24 40.5H40C41.1 40.5 42 39.6 42 38.5V26.5ZM40 26.5L32 31.5L24 26.5H40ZM40 38.5H24V28.5L32 33.5L40 28.5V38.5Z"
                 fill="white"
               />

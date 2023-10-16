@@ -56,16 +56,16 @@ const Plans = () => {
                 <path
                   d="M23 11.54V12.506C22.9987 14.7702 22.2655 16.9734 20.9098 18.7869C19.5541 20.6004 17.6484 21.9271 15.4771 22.5691C13.3058 23.2111 10.9851 23.134 8.86119 22.3493C6.73726 21.5646 4.92389 20.1144 3.69151 18.2149C2.45913 16.3154 1.87378 14.0685 2.02276 11.8091C2.17174 9.5498 3.04707 7.39915 4.51819 5.67794C5.98932 3.95672 7.97742 2.75716 10.186 2.25816C12.3946 1.75917 14.7053 1.98746 16.7735 2.90901"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M23 4.10596L12.5 14.6165L9.34998 11.4665"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               <p>Customized for your topics</p>
@@ -81,16 +81,16 @@ const Plans = () => {
                 <path
                   d="M23 11.54V12.506C22.9987 14.7702 22.2655 16.9734 20.9098 18.7869C19.5541 20.6004 17.6484 21.9271 15.4771 22.5691C13.3058 23.2111 10.9851 23.134 8.86119 22.3493C6.73726 21.5646 4.92389 20.1144 3.69151 18.2149C2.45913 16.3154 1.87378 14.0685 2.02276 11.8091C2.17174 9.5498 3.04707 7.39915 4.51819 5.67794C5.98932 3.95672 7.97742 2.75716 10.186 2.25816C12.3946 1.75917 14.7053 1.98746 16.7735 2.90901"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M23 4.10596L12.5 14.6165L9.34998 11.4665"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               <p>1 workbooks</p>
@@ -106,16 +106,16 @@ const Plans = () => {
                 <path
                   d="M23 11.54V12.506C22.9987 14.7702 22.2655 16.9734 20.9098 18.7869C19.5541 20.6004 17.6484 21.9271 15.4771 22.5691C13.3058 23.2111 10.9851 23.134 8.86119 22.3493C6.73726 21.5646 4.92389 20.1144 3.69151 18.2149C2.45913 16.3154 1.87378 14.0685 2.02276 11.8091C2.17174 9.5498 3.04707 7.39915 4.51819 5.67794C5.98932 3.95672 7.97742 2.75716 10.186 2.25816C12.3946 1.75917 14.7053 1.98746 16.7735 2.90901"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M23 4.10596L12.5 14.6165L9.34998 11.4665"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               <p>500 Wording</p>
@@ -165,16 +165,16 @@ const Plans = () => {
                 <path
                   d="M23 11.54V12.506C22.9987 14.7702 22.2655 16.9734 20.9098 18.7869C19.5541 20.6004 17.6484 21.9271 15.4771 22.5691C13.3058 23.2111 10.9851 23.134 8.86119 22.3493C6.73726 21.5646 4.92389 20.1144 3.69151 18.2149C2.45913 16.3154 1.87378 14.0685 2.02276 11.8091C2.17174 9.5498 3.04707 7.39915 4.51819 5.67794C5.98932 3.95672 7.97742 2.75716 10.186 2.25816C12.3946 1.75917 14.7053 1.98746 16.7735 2.90901"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M23 4.10596L12.5 14.6165L9.34998 11.4665"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               <p>Customized for your topics</p>
@@ -190,16 +190,16 @@ const Plans = () => {
                 <path
                   d="M23 11.54V12.506C22.9987 14.7702 22.2655 16.9734 20.9098 18.7869C19.5541 20.6004 17.6484 21.9271 15.4771 22.5691C13.3058 23.2111 10.9851 23.134 8.86119 22.3493C6.73726 21.5646 4.92389 20.1144 3.69151 18.2149C2.45913 16.3154 1.87378 14.0685 2.02276 11.8091C2.17174 9.5498 3.04707 7.39915 4.51819 5.67794C5.98932 3.95672 7.97742 2.75716 10.186 2.25816C12.3946 1.75917 14.7053 1.98746 16.7735 2.90901"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M23 4.10596L12.5 14.6165L9.34998 11.4665"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               <p>10 workbooks</p>
@@ -215,16 +215,16 @@ const Plans = () => {
                 <path
                   d="M23 11.54V12.506C22.9987 14.7702 22.2655 16.9734 20.9098 18.7869C19.5541 20.6004 17.6484 21.9271 15.4771 22.5691C13.3058 23.2111 10.9851 23.134 8.86119 22.3493C6.73726 21.5646 4.92389 20.1144 3.69151 18.2149C2.45913 16.3154 1.87378 14.0685 2.02276 11.8091C2.17174 9.5498 3.04707 7.39915 4.51819 5.67794C5.98932 3.95672 7.97742 2.75716 10.186 2.25816C12.3946 1.75917 14.7053 1.98746 16.7735 2.90901"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M23 4.10596L12.5 14.6165L9.34998 11.4665"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               <p>5,000 Wording</p>
@@ -274,16 +274,16 @@ const Plans = () => {
                 <path
                   d="M23 11.54V12.506C22.9987 14.7702 22.2655 16.9734 20.9098 18.7869C19.5541 20.6004 17.6484 21.9271 15.4771 22.5691C13.3058 23.2111 10.9851 23.134 8.86119 22.3493C6.73726 21.5646 4.92389 20.1144 3.69151 18.2149C2.45913 16.3154 1.87378 14.0685 2.02276 11.8091C2.17174 9.5498 3.04707 7.39915 4.51819 5.67794C5.98932 3.95672 7.97742 2.75716 10.186 2.25816C12.3946 1.75917 14.7053 1.98746 16.7735 2.90901"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M23 4.10596L12.5 14.6165L9.34998 11.4665"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               <p>Customized for your topics</p>
@@ -299,16 +299,16 @@ const Plans = () => {
                 <path
                   d="M23 11.54V12.506C22.9987 14.7702 22.2655 16.9734 20.9098 18.7869C19.5541 20.6004 17.6484 21.9271 15.4771 22.5691C13.3058 23.2111 10.9851 23.134 8.86119 22.3493C6.73726 21.5646 4.92389 20.1144 3.69151 18.2149C2.45913 16.3154 1.87378 14.0685 2.02276 11.8091C2.17174 9.5498 3.04707 7.39915 4.51819 5.67794C5.98932 3.95672 7.97742 2.75716 10.186 2.25816C12.3946 1.75917 14.7053 1.98746 16.7735 2.90901"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M23 4.10596L12.5 14.6165L9.34998 11.4665"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               <p>Unlimited workbooks</p>
@@ -324,16 +324,16 @@ const Plans = () => {
                 <path
                   d="M23 11.54V12.506C22.9987 14.7702 22.2655 16.9734 20.9098 18.7869C19.5541 20.6004 17.6484 21.9271 15.4771 22.5691C13.3058 23.2111 10.9851 23.134 8.86119 22.3493C6.73726 21.5646 4.92389 20.1144 3.69151 18.2149C2.45913 16.3154 1.87378 14.0685 2.02276 11.8091C2.17174 9.5498 3.04707 7.39915 4.51819 5.67794C5.98932 3.95672 7.97742 2.75716 10.186 2.25816C12.3946 1.75917 14.7053 1.98746 16.7735 2.90901"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M23 4.10596L12.5 14.6165L9.34998 11.4665"
                   stroke="#8242DF"
-                  stroke-width="3.15"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="3.15"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               <p>Unlimited Wording</p>
