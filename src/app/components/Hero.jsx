@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 import "swiper/css";
 
@@ -170,8 +171,13 @@ const Hero = () => {
                 slidesPerView: 2,
               },
             }}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            navigation={true}
+            modules={[Autoplay, Pagination, Navigation]}
             onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
           >
             <SwiperSlide>
               {" "}

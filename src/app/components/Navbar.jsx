@@ -9,8 +9,8 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white relative text-black  py-8 ">
-      <div className="container  mx-auto flex justify-between items-center px-4">
-        <div className=" text-2xl font-bold">
+      <div className="xl:container mx-auto flex justify-between items-center px-5">
+        <div className="b xl:-ml-0 xl:pl-8  2xl:pl-40 text-2xl font-bold">
           <svg
             width="178"
             height="52"
@@ -60,11 +60,21 @@ const Navbar = () => {
               />
             </svg>
           </a>
-          <a href="#" className="">API</a>
-          <a href="#" className="">PRICING</a>
-          <a href="#" className="">CONTACT</a>
-          <a href="#" className="">FAQ</a>
-          <a href="#" className="">AFFILIATE</a>
+          <a href="#" className="">
+            API
+          </a>
+          <a href="#" className="">
+            PRICING
+          </a>
+          <a href="#" className="">
+            CONTACT
+          </a>
+          <a href="#" className="">
+            FAQ
+          </a>
+          <a href="#" className="">
+            AFFILIATE
+          </a>
         </ul>
 
         <button className="hidden lg:block bg-app-purple font-medium text-white px-8 py-3 rounded-xl">
@@ -75,13 +85,13 @@ const Navbar = () => {
       <div
         className={`origin-top bg-white lg:hidden   absolute 
            w-full overflow-hidden transition-all duration-500 ${
-             isMobileMenuOpen ? "h-64 " : "h-0 "
+             isMobileMenuOpen ? "h-[265px] " : "h-0 "
            }`}
       >
         {isMobileMenuOpen && (
           <>
             <ul className="flex flex-col mx-12 my-2">
-              <a href="#" className="flex items-center gap-x-1">
+              <a href="#" className="flex items-center hover:text-app-purple duration-150 gap-x-1">
                 <span>PRODUCT</span>{" "}
                 <svg
                   className="mt-2"
@@ -99,13 +109,24 @@ const Navbar = () => {
                   />
                 </svg>
               </a>
-              <a href="#" className="">API</a>
-              <a href="#" className="my-1">PRICING</a>
-              <a href="#" className="">CONTACT</a>
-              <a href="#" className="my-1">FAQ</a>
-              <a href="#" className="">AFFILIATE</a>
+              <a href="#" className="hover:text-app-purple duration-150">
+                API
+              </a>
+              <a href="#" className="my-2 hover:text-app-purple duration-150">
+                PRICING
+              </a>
+              <a href="#" className="hover:text-app-purple duration-150">
+                CONTACT
+              </a>
+              <a href="#" className="my-2 hover:text-app-purple duration-150">
+                FAQ
+              </a>
+              <a href="#" className=" hover:text-app-purple duration-150">
+                AFFILIATE
+              </a>
             </ul>
-            <button className="mx-12 my-1 lg:hidden bg-app-purple font-medium text-white px-8 py-2 rounded-xl">
+            <hr className="mx-2" />
+            <button className="mx-12 my-2 lg:hidden bg-app-purple font-medium text-white px-8 py-2 rounded-xl">
               My Account
             </button>
           </>
